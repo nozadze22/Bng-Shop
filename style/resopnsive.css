@@ -1,0 +1,82 @@
+@media screen and (max-width: 1190px) {
+  main .Bags .forbags {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1190px) and (max-width: 1080px) {
+  main .Bags .forbags {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 60%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 762px) {
+  main .contact {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  main .contact .forinput textarea {
+    margin-left: 0px;
+    position: relative;
+    margin: auto;
+    margin-top: 15px;
+  }
+  main .contact .forinput input {
+    margin-left: 0px;
+    position: relative;
+    margin: auto;
+    margin-top: 15px;
+  }
+  main .contact .kontakt h1 {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .contact .kontakt h5 {
+    margin: auto;
+  }
+  main .contact .kontakt h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 625px) {
+  main .onlyemail {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  main .banner h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  main .banner h1 {
+    font-size: 30px;
+  }
+  main .contact input {
+    width: 100%;
+  }
+  main .contact textarea {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .smolll .Bags .forbags {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 725px) {
+  .smolll .Bags .forbags {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=resopnsive.css.map */
